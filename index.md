@@ -39,3 +39,4 @@ Dr. Takashi Sato will present his recent work on a FHE standard cell library (WA
 
 Dr. Jiansong Zhang will introduce their latest results on hardware-accelerated privacy-preserving
 machine learning. More specifically, they will introduce their recent work on privacy-preserving neural-network inference, where a new convolution protocol is proposed to aid the efficient design of accelerator architecture (TIFS'21, CVPR'20). Then, they will introduce the latest hardware architecture from industry to accelerate real-world deployment of FHE-based secure protocols.
+
