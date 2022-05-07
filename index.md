@@ -1,9 +1,15 @@
 ## Towards Fully-Homomorphic-Encryption-based Privacy-Preserving Computing: A Cross-Layer Design Perspective
 
-Placeholder
+### Location:
+
+The Moscone Center\
+Administrative Office\
+747 Howard Street\
+San Francisco, CA 94103
 
 ### Time 
-Monday, July 11th10:30am - 12:00pm PDT
+
+Monday, July 11th, 10:30am - 12:00pm PDT
 
 ### Presenters
 * Lei Jiang, Indiana University, Bloomington
