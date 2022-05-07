@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
 title: [Towards Fully-Homomorphic-Encryption-based Privacy-Preserving Computing]
-show_downloads: ["false"]
+show_downloads: [false]
 github:
-  is_project_page: ["false"]
+  is_project_page: [false]
