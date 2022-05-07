@@ -1,6 +1,4 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/UnchartedRLab/FHE_Tutorial/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Towards Fully-Homomorphic-Encryption-based Privacy-Preserving Computing: A Cross-Layer Design Perspective
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
