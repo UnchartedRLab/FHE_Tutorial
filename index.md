@@ -2,34 +2,36 @@
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Time 
+Monday, July 11th10:30am - 12:00pm PDT
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Presenters
+Lei Jiang, Indiana University, Bloomington
+Takashi Sato, Kyoto University
+Jiansong Zhang, Alibaba Group
 
-```markdown
-Syntax highlighted code block
+### Organizers
+Song Bian, Kyoto University
+Yue Zhang, Nanyang Technological University
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Description
 
-1. Numbered
-2. List
+In a typical anything-as-a-service scheme, average clients are reluctant to send their personal data to untrusted servers. Moreover, recent law regulations limit the irresponsible use of private data as more and more financial values are discovered and harvested from the growing amount of data. Privacy-preserving computing becomes critical to enabling average clients to use untrusted servers. In particular, homomorphic encryption (HE) is one of the most promising cryptographic technologies to building privacy-preserving computing systems. Unfortunately, in most real-world applications, HE, especially fully homomorphic encryption (FHE), is notorious for its prohibitive amount of computational overheads. For instance, even on the latest fully-customized FHE hardware accelerator (i.e., F1 from MICRO'21), a FHE-based neural network inference on a small image still requires 0.24 seconds.
 
-**Bold** and _Italic_ and `Code` text
+To better systematize the opportunities and challenges of FHE-based privacy-preserving computing, in this tutorial, we focus on providing with the audience a thorough introduction to FHE, as well as novel insights over the timely topic of cryptography, hardware, software, and machine learning co-design for the FHE-specific hardware acceleration. We make the observation that the main obstacle behind the design of such privacy-preserving computing systems is the multi-disciplinary nature of
+real-world applications. Consequently, only a cross-layer design and optimization approach can make such FHE-based privacy-preserving computing systems practical. Therefore, we will organize the tutorial with the following components.
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+#### topic 1: Cryptography and Applications
 
-### Jekyll Themes
+Dr. Lei Jiang will introduce the preliminary knowledge on the algebraic and algorithmic foundations of ring learning with errors (RLWE)-based FHE. They will also present their recent progresses over applying privacy-preserving neural network inference (ICRL'21, ICML'21) to visual recognition, text analysis, and other industrial real-world applications.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/UnchartedRLab/FHE_Tutorial/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### topic 2: FHE Circuit Construction and Synthesis
 
-### Support or Contact
+Dr. Takashi Sato will present his recent work on a FHE standard cell library (WAHC'21), optimizations on FHE-based Boolean circuitry, and a FHE-based RISC-V CPU (Security'21). He will present how to build composite logic gates over FHE, e.g., 3-input gates and multi-output gates using FHE including Half Adder, Full Adder and AOI21. At last, he will introduce how to build a FHE-based five-stage pipelined RISC-V processor using customized FHE gates.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### topic 3: Hardware and Algorithm Co-design
+
+Dr. Jiansong Zhang will introduce their latest results on hardware-accelerated privacy-preserving
+machine learning. More specifically, they will introduce their recent work on privacy-preserving neural-network inference, where a new convolution protocol is proposed to aid the efficient design of accelerator architecture (TIFS'21, CVPR'20). Then, they will introduce the latest hardware architecture from industry to accelerate real-world deployment of FHE-based secure protocols.
